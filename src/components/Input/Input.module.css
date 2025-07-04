@@ -1,0 +1,33 @@
+.input {
+    border: none;
+    padding: 18px 24px;
+    line-height: 24px;
+    font-size: 1rem;
+    color: var(--grayscale-primary);
+}
+
+.input::placeholder {
+    color: var(--grayscale-secondary);
+}
+
+.outline {
+    border: 1px solid var(--grayscale-secondary);
+}
+
+.input.outline:focus-visible {
+    outline: unset;
+    border: 2px solid var(--blue-secondary);
+    padding: 17px 23px;
+}
+
+.underline {
+    border-bottom: 1px solid var(--grayscale-secondary);
+    padding-bottom: 19px;
+    padding-left: 2px;
+}
+
+.input.underline:focus-visible {
+    outline: unset;
+    border-bottom: 2px solid var(--blue-secondary);
+    padding-bottom: 18px;
+}

@@ -1,0 +1,19 @@
+.textarea {
+    font-family: system-ui, Poppins, Helvetica, Arial, sans-serif;
+    border: 1px solid var(--grayscale-secondary);
+    padding: 18px 24px;
+    line-height: 24px;
+    font-size: 1rem;
+    color: var(--grayscale-primary);
+    resize: none;
+}
+
+.textarea::placeholder {
+    color: var(--grayscale-secondary);
+}
+
+.textarea:focus-visible {
+    outline: unset;
+    border: 2px solid var(--blue-secondary);
+    padding: 17px 23px;
+}
