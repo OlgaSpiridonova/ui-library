@@ -1,0 +1,40 @@
+.button {
+    height: min-content;
+    background: var(--white);
+    color: var(--grayscale-primary);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.button:hover {
+    background: var(--blue-secondary);
+    border-color: var(--blue-secondary);
+    color: var(--white);
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto var(--blue-secondary);
+}
+
+.contained {
+    background: var(--blue-primary);
+    color: var(--white);
+    border: 1px solid var(--blue-primary);
+}
+
+.contained:hover {
+    background: var(--blue-primary-hovered);
+    border-color: var(--blue-primary-hovered);
+}
+
+.outlined {
+    border: 1px solid var(--grayscale-border);
+}
+
+.light {
+    border: 1px solid var(--white);
+}
