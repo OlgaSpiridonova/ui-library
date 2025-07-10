@@ -1,12 +1,13 @@
 {
   "name": "@olga_spiridonova/ui-library",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "prepublishOnly": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
