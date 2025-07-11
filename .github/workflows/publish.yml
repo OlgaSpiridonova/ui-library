@@ -34,11 +34,11 @@ jobs:
           node-version: 18
           cache: 'npm'
 
-        run: npm ci
+      - run: npm ci
 
-        run: npm run build-storybook
+      - run: npm run build-storybook
 
-        uses: OlgaSpiridonova/github-pages-deploy-action@v4
+      - uses: OlgaSpiridonova/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: storybook-static
