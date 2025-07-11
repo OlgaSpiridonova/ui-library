@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Publish to npm & deploy Storybook
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
 
       - run: npm run build-storybook
 
-      - uses: OlgaSpiridonova/github-pages-deploy-action@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: storybook-static
