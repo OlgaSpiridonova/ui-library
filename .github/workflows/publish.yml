@@ -1,4 +1,4 @@
-name: Publish to npm & deploy Storybook
+name: Publish to npm
 
 on:
   push:
@@ -22,23 +22,3 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-  deploy-storybook:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: 'npm'
-
-      - run: npm ci
-
-      - run: npm run build-storybook
-
-      - uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: storybook-static
-          clean: true
