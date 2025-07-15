@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { FormField } from './FormField';
+import { TextField } from './TextField';
 
-const meta: Meta<typeof FormField> = {
-  title: 'FormField',
-  component: FormField,
+const meta: Meta<typeof TextField> = {
+  title: 'TextField',
+  component: TextField,
 };
 
 export default meta;
-type Story = StoryObj<typeof FormField>;
+type Story = StoryObj<typeof TextField>;
 
-export const InputFormField: Story = {
+export const InputTextField: Story = {
   args: {
     label: 'Name',
     placeholder: 'Name',
@@ -17,7 +17,7 @@ export const InputFormField: Story = {
   },
 };
 
-export const TextareaFormField: Story = {
+export const TextareaTextField: Story = {
   args: {
     label: 'Name',
     placeholder: 'Name',
