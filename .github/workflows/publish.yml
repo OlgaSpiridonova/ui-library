@@ -2,12 +2,11 @@ name: Publish to npm & deploy Storybook
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 jobs:
   publish:
-    if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
 
     steps:
