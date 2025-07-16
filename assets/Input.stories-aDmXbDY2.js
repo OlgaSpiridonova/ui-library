@@ -1,4 +1,4 @@
-import{I as p}from"./Input-ihQ1Q7Df.js";import"./jsx-runtime-D_zvdyIk.js";import"./clsx-B-dksMZM.js";import"./render-D-CZJmXH.js";import"./index-D4lIrffr.js";const N={title:"Input",component:p},e={args:{name:"Name",placeholder:"Name"}},r={args:{name:"Name",placeholder:"Name",variant:"underline"}};var a,n,o;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
+import{I as p}from"./Input-D0GHmzqJ.js";import"./jsx-runtime-D_zvdyIk.js";import"./clsx-B-dksMZM.js";import"./render-D-CZJmXH.js";import"./index-D4lIrffr.js";const N={title:"Input",component:p},e={args:{name:"Name",placeholder:"Name"}},r={args:{name:"Name",placeholder:"Name",variant:"underline"}};var a,n,o;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
   args: {
     name: 'Name',
     placeholder: 'Name'
