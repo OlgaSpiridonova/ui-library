@@ -10,7 +10,7 @@ const meta: Meta<typeof Link> = {
 export default meta;
 type Story = StoryObj<typeof Link>;
 
-export const FacebookLink: Story = {
+export const IconLink: Story = {
   args: {
     iconLink: true,
     children: FacebookIcon(),
