@@ -1,8 +1,8 @@
 import type { Meta } from '@storybook/react';
 import { FacebookIcon } from './FacebookIcon'
 import { InstagramIcon } from './InstagramIcon'
-import { TiktokIcon } from '../icons/TiktokIcon'
-import { YoutubeIcon } from '../icons/YoutubeIcon'
+import { TiktokIcon } from './TiktokIcon'
+import { YoutubeIcon } from './YoutubeIcon'
 
 const meta: Meta<typeof InstagramIcon> = {
   title: 'Icons',
