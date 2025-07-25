@@ -15,10 +15,12 @@ type Story = StoryObj<typeof Link>;
 
 export const IconLinks = () => (
   <>
-    <Link iconLink><FacebookIcon /></Link>
-    <Link iconLink><InstagramIcon /></Link>
-    <Link iconLink><TiktokIcon /></Link>
-    <Link iconLink><YoutubeIcon /></Link>
+    <div style={{display: 'flex', gap: 8}}>
+      <Link iconLink><FacebookIcon /></Link>
+      <Link iconLink><InstagramIcon /></Link>
+      <Link iconLink><TiktokIcon /></Link>
+      <Link iconLink><YoutubeIcon /></Link>
+    </div>
   </>
 );
 
