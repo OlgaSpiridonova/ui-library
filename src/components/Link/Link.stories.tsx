@@ -15,7 +15,7 @@ type Story = StoryObj<typeof Link>;
 
 export const IconLinks = () => (
   <>
-    <div style={{display: 'flex', gap: 8}}>
+    <div style={{display: 'flex', gap: 10}}>
       <Link iconLink><FacebookIcon /></Link>
       <Link iconLink><InstagramIcon /></Link>
       <Link iconLink><TiktokIcon /></Link>
